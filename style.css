@@ -928,6 +928,10 @@ footer .copyright {
 
 /* Cart Page */
 
+#cart {
+  overflow-x: auto;
+}
+
 #cart table{
   width: 100%;
   border-collapse: collapse;
@@ -1153,6 +1157,10 @@ footer .copyright {
   }
 }
 
+
+
+
+
 @media (max-width: 477px) {
   .section-p1 {
     padding: 20px;
@@ -1296,6 +1304,20 @@ footer .copyright {
   #form-details form {
     width: 100%;
     margin-bottom: 30px;
+  }
+
+  /* cart page */
+  #cart-add {
+    flex-direction: column;
+  }
+
+  #coupon {
+    width: 100%;
+  }
+
+  #subtotal {
+    width: 100%;
+    padding: 20px;
   }
 
 
